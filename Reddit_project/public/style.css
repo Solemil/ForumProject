@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f1f3f5;
+  font-family: "Lato", sans-serif;
+  padding-bottom: 50rem;
+}
+
+header {
+  width: 100%;
+  height: 20rem;
+  background: url(./img/space-background.webp);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+}
+
+header h1 {
+  padding-top: 7rem;
+  color: white;
+  font-weight: 300;
+  font-size: 4rem;
+  letter-spacing: 4rem;
+}
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+
+main {
+  flex-basis: 70%;
+}
+
+aside {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  border: 1px solid black;
+  padding: 1rem 1.6rem;
+  /* margin: 2rem; */
+  background-color: #f8f9fa;
+  font-size: 1.2rem;
+}
+
+article {
+  margin: 3rem 0;
+  padding: 30px;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  background-color: white;
+}
+
+.vote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
+
+.vote img {
+  height: 1.6rem;
+}
+
+.vote p {
+  margin: 0.4rem;
+  font-size: 1.3rem;
+}
+
+article h2 {
+  font-size: 2rem;
+  color: #212529;
+  padding-bottom: 1rem;
+}
+
+.post-vote-number {
+	font-weight: 600;
+}
+
+.post-text {
+  font-size: 1.4rem;
+  color: #495057;
+}
+
+section p {
+  padding-bottom: 1rem;
+}
+
+section ul {
+  padding: 0 2rem;
+}
+
+.btn {
+  margin: 3rem 0;
+}
+
+/* button {
+  background-image: linear-gradient(
+    92.88deg,
+    #455eb5 9.16%,
+    #5643cc 43.89%,
+    #673fd7 64.72%
+  );
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  height: 4rem;
+  padding: 1rem 1.6rem;
+  margin: 3rem 0;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all 0.5s;
+} */
+
+button:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: 0.1s;
+}
